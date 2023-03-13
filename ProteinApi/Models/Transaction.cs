@@ -37,6 +37,6 @@ public class Transaction
     public string ReciverMsgId { get; set; } = null!;
 
     //Tangle message
-    public string MessageId { get; set; } = null!;
+    public string? MessageId { get; set; }
 }
 

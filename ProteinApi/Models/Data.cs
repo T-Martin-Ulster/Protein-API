@@ -18,7 +18,7 @@ public class Data
     public string TargetId { get; set; } = null!; //Crop, batch or field Id
 
     //Traceability
-    public string MessageId { get; set; } = null!;
+    public string? MessageId { get; set; }
 
 }
 

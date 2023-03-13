@@ -29,6 +29,6 @@ public class Shipment
     //Sendor
     public string SendorId { get; set; } = null!;
 
-    public string SendorMsgId { get; set; } = null!;
+    public string? SendorMsgId { get; set; }
 
 }

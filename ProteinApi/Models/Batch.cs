@@ -52,7 +52,7 @@ public class Batch
 
     public string? TransactionMsgId { get; set; }
 
-    public string MessageId { get; set; } = null!;
+    public string? MessageId { get; set; }
 
 }
 

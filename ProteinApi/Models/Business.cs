@@ -21,7 +21,7 @@ public class Business
     public string? GpsCoordinates { get; set; }
 
     //Tangle
-    public string MessageId { get; set; } = null!;
+    public string? MessageId { get; set; }
 }
 
 

@@ -15,7 +15,7 @@ public class MixedBatch
     public string[] BatchMsgIds { get; set; } = null!;
 
     //Traceability
-    public string MessageId { get; set; } = null!;
+    public string? MessageId { get; set; }
 
 }
 

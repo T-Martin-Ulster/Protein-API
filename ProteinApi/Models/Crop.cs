@@ -36,7 +36,7 @@ public class Crop
     public bool Harvested { get; set; }
 
     //Traceability
-    public string MessageId { get; set; } = null!;
+    public string? MessageId { get; set; }
 
 }
 
